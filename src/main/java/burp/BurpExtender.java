@@ -39,7 +39,7 @@ public class BurpExtender implements IBurpExtender, IContextMenuFactory, ActionL
 		this.pocTabManager = new PocTabManager();
 		this.pocs = new Pocs();
 		ibec.registerContextMenuFactory(this);
-		ibec.setExtensionName("CSRF PoC Creator");
+		ibec.setExtensionName("CSRF PoC Generator");
 		this.burpExtenderCallbacks.addSuiteTab(this.pocTabManager);
 		// add menus
 		String[] pocKeys = this.pocs.getPocKeys();

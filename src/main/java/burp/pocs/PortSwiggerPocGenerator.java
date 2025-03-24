@@ -10,7 +10,7 @@ import burp.util.Util;
 /**
  * HTML CSRF POCs
  * 
- * @author Joaquin R. Martinez <joaquin.ramirez.mtz.lab@gmail.com>
+ * @author Ricardo Ferreira
  */
 public class HtmlPocGenerator implements PocGenerator {
 
@@ -42,13 +42,7 @@ public class HtmlPocGenerator implements PocGenerator {
 	}
 
 	private String createHTMLPage(String body, String lineSeparator) {
-		String html = "<!DOCTYPE html>" + lineSeparator;
-		html += "<html>" + lineSeparator;
-		html += "\t<body>" + lineSeparator;
-		html += body;
-		html += "\t</body>" + lineSeparator;
-		html += "</html>";
-		return html;
+		return body;
 	}
 	
 }
