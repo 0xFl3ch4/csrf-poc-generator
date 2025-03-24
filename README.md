@@ -1,4 +1,7 @@
-# csrf-poc-creator(just added JS to automate victim click)
+# Things Modified
+- JS to automate victim click
+- Portswigger Template
+# csrf-poc-creator
 A Burp Suite extension for CSRF proof of concepts
 
 Blog: [CSRF-POC-CREATOR for Burp Suite Free Edition](https://i0akinsec.wordpress.com/2016/06/06/csrf-poc-creator-for-burp-suite-free-edition/) 
