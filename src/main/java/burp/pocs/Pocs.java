@@ -10,6 +10,7 @@ import java.util.Map;
  * Contains all types of PoC's supported by this plugin.
  * 
  * @author Joaquin R. Martinez <joaquin.ramirez.mtz.lab@gmail.com>
+ * @author Ricardo Ferreira 
  */
 public class Pocs {
 
@@ -20,8 +21,9 @@ public class Pocs {
 	 */
 	public Pocs() {
 		this.pocs = new HashMap<>();
-		this.pocs.put("Ajax", new AjaxPocGenerator());
 		this.pocs.put("HTML", new HtmlPocGenerator());
+		this.pocs.put("PS", new PortSwiggerPocGenerator());
+		this.pocs.put("Ajax", new AjaxPocGenerator());
 		// Add more kind of PoC's
 	}
 
